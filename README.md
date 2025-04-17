@@ -16,6 +16,8 @@
 
 - database dan table
 
+- npm install
+
 - php artisan serve
 
 
