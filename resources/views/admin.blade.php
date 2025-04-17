@@ -4,6 +4,25 @@
     <title>Admin Panel</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media (max-width: 768px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            .space-x-2 {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+            .space-x-2 a,
+            .space-x-2 form {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body class="bg-gray-100 min-h-screen p-4">
     <div class="container mx-auto">

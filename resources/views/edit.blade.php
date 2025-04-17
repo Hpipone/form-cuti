@@ -19,7 +19,19 @@
             50% { opacity: 0.7; }
             100% { opacity: 1; }
         }
+        @media (max-width: 640px) {
+            .flex.justify-between {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .flex.justify-between button,
+            .flex.justify-between a {
+                width: 100%;
+                text-align: center;
+            }
+        }
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
     <div class="bg-white rounded-lg shadow-lg p-8 w-full max-w-md">
