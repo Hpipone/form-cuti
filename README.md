@@ -10,18 +10,18 @@
 
 # Cara penggunaan :
 
--clone ini github
+- clone ini github
 
--nyalakan postgresql jika belum
+- nyalakan postgresql jika belum
 
--database dan table
+- database dan table
 
--php artisan serve
+- php artisan serve
 
 
 
 # Cara melihat database dan table
 
--php artisan tinker
+- php artisan tinker
 
--Schema::getConnection()->getDoctrineSchemaManager()->listTableNames();
+- Schema::getConnection()->getDoctrineSchemaManager()->listTableNames();
